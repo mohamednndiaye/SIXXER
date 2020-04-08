@@ -1,0 +1,13 @@
+<h1>Register</h1>
+
+<?php if ($this->pageObj->registerMessage) : ?>
+    <?=$this->pageObj->registerMessage?>
+<?php endif; ?>
+
+<form name="register" method="post">
+    <input type="text" name="username" placeholder="Username..." />
+    <input type="password" name="password" placeholder="Password..." />
+    <input type="text" name="firstname" placeholder="First name..." />
+    <input type="text" name="lastname" placeholder="Last name..." />
+    <input type="submit" name="submit" value="Register" />
+</form>
