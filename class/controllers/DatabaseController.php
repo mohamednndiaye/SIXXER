@@ -19,7 +19,7 @@ class DatabaseController {
         $this->host = 'localhost';
         $this->dbName = 'mini-cms';
         $this->user = 'root';
-        $this->pass = '';
+        $this->pass = 'root1';
 
         //dsn for mysql
         $dsn = "mysql:host=".$this->host.";dbname=".$this->dbName;
